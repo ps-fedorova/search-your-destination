@@ -7,7 +7,7 @@ The project is a single-page site. The site is adapted to the most popular resol
 
 ## Built With
 
-* CSS rules vary depending on the width of the device thanks to the @media Directive
+* CSS rules vary depending on the width of the device thanks to the @media;
 * Created a Nested file structure for BEM;
 * Use flex or grid-layout to create grids;
 * Links are set to the state when the mouse pointer hovers over them (: hover);
