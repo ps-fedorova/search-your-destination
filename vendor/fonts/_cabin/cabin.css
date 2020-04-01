@@ -1,0 +1,11 @@
+@font-face {
+    src: url('./cabinregular.woff2') format('woff2'), url('./cabinregular.woff') format('woff'), url('./cabinregular.ttf') format('truetype');
+    font-family: 'Cabin';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('./cabinbold.woff2') format('woff2'), url('./cabinbold.woff') format('woff'), url('./cabinbold.ttf') format('truetype');
+    font-family: 'Cabin';
+    font-weight: 700;
+}

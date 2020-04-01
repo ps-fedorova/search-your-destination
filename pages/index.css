@@ -1,0 +1,8 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/_cabin/cabin.css);
+@import url(../vendor/fonts/_gilroy/gilroy.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/validate-fonts-delete/_cabinbold/cabinbold.css);
+@import url(../blocks/validate-fonts-delete/_cabinregular/cabinregular.css);
+@import url(../blocks/validate-fonts-delete/_Gilroy-ExtraBold/Gilroy-ExtraBold.css);
+@import url(../blocks/validate-fonts-delete/_Gilroy-Light/Gilroy-Light.css);
