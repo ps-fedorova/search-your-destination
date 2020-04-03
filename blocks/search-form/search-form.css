@@ -1,0 +1,23 @@
+@import url(./__icon/search-form__icon.css);
+@import url(./__input/search-form__input.css);
+@import url(./__button/search-form__button.css);
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 475px;
+  height: 62px;
+  background: #FFFFFF;
+  border-radius: 31px;
+  box-sizing: border-box;
+  margin-top: 52px;
+}
+
+@media screen and (max-width: 1029px) {
+  .search-form {
+    max-width: 440px;
+    margin-top: 32px;
+  }
+}

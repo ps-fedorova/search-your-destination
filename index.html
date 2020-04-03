@@ -13,16 +13,28 @@
 </head>
 
 <body class="page">
-    <!--УДАЛИТЬ-->
-    <p class="cabinregular">cabinregular</p>
-    <p class="cabinbold">cabinbold</p>
-    <p class="Gilroy-Light">Gilroy-Light</p>
-    <p class="Gilroy-ExtraBold">Gilroy-ExtraBold</p>
-    <ul>Все шрифты бесплатные, убедиться можно по ссылкам.
-        <li><a href="https://www.tinkov.info/gilroy.html" target="_blank">gilroy</a></li>
-        <li><a href="https://fonts.google.com/specimen/Cabin?selection.family=Cabin" target="_blank">Cabin</a></li>
-    </ul>
-    <p>Фавиконку можно убрать потом. Я ее сделала, потому что мне так проще находить свою страницу в браузере</p>
+
+  <header class="header">
+    <div class="header__container">
+      <nav class="header__navbar">
+        <a class="header__link" href="#" target="_blank"><img class="header__logo" src="./images/header_logo.svg" alt="CityMap"></a>
+        <ul class="header__link-list">
+          <a class="header__link" href="#" target="_blank">About&nbsp;Us</a>
+          <a class="header__link" href="#" target="_blank">Find&nbsp;Place</a>
+          <a class="header__link" href="#" target="_blank">City&nbsp;Map</a>
+          <a class="header__link" href="#" target="_blank">Contact</a>
+        </ul>
+      </nav>
+      <h1 class="header__title">Search Your Destination</h1>
+      <p class="header__subtitle">Then select departure date, how long the trip will be and how many destinations to include. Users can also select if they want to look at cities in Europe, the European Union or just the Schengen Zone.</p>
+      <form class="search-form">
+        <img class="search-form__icon" src="images/search_icon.svg" alt="">
+        <input class="search-form__input" type="text" placeholder="Find your place here">
+        <button class="search-form__button" type="submit"></button>
+      </form>
+    </div>
+  </header>
+
 </body>
 
 </html>

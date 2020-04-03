@@ -1,0 +1,20 @@
+@import url(./__navbar/header__navbar.css);
+@import url(./__logo/header__logo.css);
+@import url(./__link-list/header__link-list.css);
+@import url(./__link/header__link.css);
+@import url(./__container/header__container.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+
+.header {
+  max-width: 1440px;
+  height: 912px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url('../../images/header_background(1).png');
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+  position: relative;
+}
