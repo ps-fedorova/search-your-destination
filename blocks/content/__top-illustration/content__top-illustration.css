@@ -1,0 +1,11 @@
+.content__top-illustration {
+  position: relative;
+  margin-left: 216px;
+}
+
+@media screen and (max-width: 767px) {
+  .content__top-illustration {
+    margin-left: initial;
+    align-self: center;
+  }
+}

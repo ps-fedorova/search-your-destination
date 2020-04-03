@@ -1,0 +1,13 @@
+.content__main {
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .content__main {
+    order: 2;
+    align-self: center;
+  }
+}

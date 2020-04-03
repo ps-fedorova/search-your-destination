@@ -1,0 +1,17 @@
+.content__theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 728px;
+  margin-left: 22%;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content__theme {
+    flex-direction: column;
+    margin-left: 3%;
+  }
+}
+
+

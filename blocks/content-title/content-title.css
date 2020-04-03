@@ -1,0 +1,27 @@
+.content-title {
+  display: flex;
+  flex-direction: column;
+  max-width: 37%;
+  font-family: Gilroy;
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 300;
+  text-align: center;
+  color: #4F79A4;
+  align-self: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .content-title {
+      font-size: 30px;
+      line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-title {
+      font-size: 20px;
+      line-height: 26px;
+  }
+}

@@ -1,0 +1,16 @@
+@import url(../content/__main-illustration/content-main-illustration.css);
+@import url(../content/__theme/content__theme.css);
+@import url(../content/__main/content__main.css);
+@import url(../content/__header/content__header.css);
+@import url(../content/__text/content__text.css);
+@import url(../content/__main-background/content__main-background.css);
+@import url(../content/__illustration/content__illustration.css);
+@import url(../content/__top-illustration/content__top-illustration.css);
+@import url(../content/__top-illustration-background/content__top-illustration-background.css);
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
