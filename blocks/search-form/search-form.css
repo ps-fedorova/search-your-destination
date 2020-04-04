@@ -6,8 +6,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 475px;
+  justify-content: space-between;
+  max-width: 46%;
   height: 62px;
   background: #FFFFFF;
   border-radius: 31px;
@@ -15,9 +15,22 @@
   margin-top: 52px;
 }
 
-@media screen and (max-width: 1029px) {
+@media screen and (max-width: 1024px) {
   .search-form {
-    max-width: 440px;
     margin-top: 32px;
+    height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-form {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search-form {
+    max-width: 100%;
+    margin-top: 24px;
+    height: 48px;
   }
 }

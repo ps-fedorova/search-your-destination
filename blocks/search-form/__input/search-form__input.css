@@ -3,8 +3,14 @@
   outline: none;
   width: 65%;
   height: 60%;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 23px;
   opacity: 0.3;
   margin-left: -10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .search-form__input {
+    font-size: 16px;
+  }
 }

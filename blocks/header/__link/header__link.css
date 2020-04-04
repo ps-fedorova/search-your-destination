@@ -9,3 +9,22 @@
 .header__link:last-of-type {
   margin-right: 8px;
 }
+
+.header__link:hover {
+  opacity: .7;
+  transition: opacity .3s ease-in;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__link {
+    font-size: 16px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__link {
+    font-size: 16px;
+    margin-right: 32px;
+  }
+}

@@ -4,15 +4,28 @@
   font-family: gilroy;
   font-weight: bold;
   color: #FFFFFF;
-  max-width: 580px;
+  max-width: 46%;
   margin-top: 220px;
   padding: 0;
 }
 
-@media screen and (max-width: 1029px) {
+@media screen and (max-width: 1024px) {
   .header__title {
-    max-width: 440px;
+    margin-top: 180px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    max-width: 50%;
     margin-top: 110px;
-    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    max-width: 100%;
+    margin-top: 40px;
   }
 }
