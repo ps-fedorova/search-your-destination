@@ -1,0 +1,13 @@
+.footer__position {
+    max-width: 776px;
+    margin: 0 auto;
+    position: relative;
+    left: 106px;
+    top: 305px;
+}
+
+@media screen and (max-width: 1400px) {
+    .footer__position {
+        left: 0;
+    }
+}

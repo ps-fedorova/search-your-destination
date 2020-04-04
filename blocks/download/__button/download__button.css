@@ -1,0 +1,17 @@
+.download__button {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-column-gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    background: rgba(19, 241, 252, 0.2);
+    border: 2px solid rgba(19, 241, 252, 0.2);
+    border-radius: 24.5px;
+    text-decoration: none;
+}
+
+.download__button:hover {
+    background: rgba(19, 241, 252, 0.5);
+    border: 2px solid rgba(19, 241, 252, 0.5);
+    transition: 400ms ease;
+}

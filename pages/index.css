@@ -2,7 +2,7 @@
 @import url(../vendor/fonts/_cabin/cabin.css);
 @import url(../vendor/fonts/_gilroy/gilroy.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/validate-fonts-delete/_cabinbold/cabinbold.css);
-@import url(../blocks/validate-fonts-delete/_cabinregular/cabinregular.css);
-@import url(../blocks/validate-fonts-delete/_Gilroy-ExtraBold/Gilroy-ExtraBold.css);
-@import url(../blocks/validate-fonts-delete/_Gilroy-Light/Gilroy-Light.css);
+@import url(../blocks/download/download.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/list-style/list-style.css);
