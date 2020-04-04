@@ -4,7 +4,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/search-form/search-form.css);
-
-* {
-  border: 1px solid red;
-  }
+@import url(../blocks/download/download.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/list-style/list-style.css);

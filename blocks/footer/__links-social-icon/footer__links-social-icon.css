@@ -1,0 +1,13 @@
+.footer__links-social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    grid-column-gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .footer__links-social-icon {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,9 @@
+.footer__social-icons {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__social-icons {
+        margin: 30px auto;
+    }
+}
