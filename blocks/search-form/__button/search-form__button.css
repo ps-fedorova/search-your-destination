@@ -1,0 +1,15 @@
+.search-form__button {
+  width: 5.5rem;
+  height: 90%;
+  padding: 0;
+  margin: 0.8%;
+  border-radius: 50px;
+  background-color: #13F1FC;
+  background-image: url('../../../images/search_button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
