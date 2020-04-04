@@ -1,0 +1,13 @@
+.footer__grid {
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) repeat(2, max-content);
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}
