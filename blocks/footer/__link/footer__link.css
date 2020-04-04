@@ -8,6 +8,5 @@
 
 .footer__link:hover {
     color: #3A3768;
-    font-weight: bold;
     transition: 400ms ease;
 }
