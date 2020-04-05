@@ -1,0 +1,6 @@
+.footer__title {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-column-gap: 5px;
+    margin: 0 auto;
+}

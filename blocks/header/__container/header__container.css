@@ -1,0 +1,12 @@
+.header__container {
+  max-width: 85%;
+  margin: auto;
+  padding-top: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container {
+    max-width: 90%;
+    padding-top: 22px;
+  }
+}
