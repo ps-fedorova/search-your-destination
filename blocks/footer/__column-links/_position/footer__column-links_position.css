@@ -1,0 +1,10 @@
+.footer__column-links_position {
+    padding-top: 60px;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__column-links_position {
+        padding: 0;
+    }
+}

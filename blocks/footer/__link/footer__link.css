@@ -1,0 +1,12 @@
+.footer__link {
+    font-family: Cabin;
+    font-size: 16px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #A5ADB1;
+}
+
+.footer__link:hover {
+    color: #3A3768;
+    transition: 400ms ease;
+}
