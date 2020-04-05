@@ -1,0 +1,13 @@
+    /*.footer__list-icon {
+        width: 54px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: tomato;
+        z-index: 3;
+    }
+
+    @media screen and (max-width: 724px) {
+        .footer__list-icon {
+            margin-bottom: 32px;
+        }
+    }

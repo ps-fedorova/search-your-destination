@@ -1,0 +1,22 @@
+.download__position {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(181px + 12px + 181px);
+    margin: 0 auto;
+    position: relative;
+    left: 200px;
+    top: 222px;
+}
+
+@media screen and (max-width: 1000px) {
+    .download__position {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .download__position {
+        padding: 0 20px;
+        text-align: center;
+    }
+}

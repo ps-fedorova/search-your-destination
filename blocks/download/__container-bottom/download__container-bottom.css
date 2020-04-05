@@ -1,0 +1,14 @@
+.download__container-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    grid-column-gap: 12px;
+    margin-top: 42px;
+}
+
+@media screen and (max-width: 450px) {
+    .download__container-bottom {
+        margin: 42px auto 0;
+        grid-template-columns: 180px;
+        grid-row-gap: 18px;
+    }
+}
