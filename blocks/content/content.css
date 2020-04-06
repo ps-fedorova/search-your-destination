@@ -1,3 +1,5 @@
+@import url(../content/__title/content__title.css);
+@import url(../content/__title-bold/content__title-bold.css);
 @import url(../content/__main-illustration/content-main-illustration.css);
 @import url(../content/__theme/content__theme.css);
 @import url(../content/__main/content__main.css);

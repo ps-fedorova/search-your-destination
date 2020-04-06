@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
     .footer__links-social-icon {
         justify-content: center;
     }

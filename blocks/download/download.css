@@ -5,6 +5,7 @@
 @import url(./__button/download__button.css);
 @import url(./__icon/download__icon.css);
 @import url(./__word/download__word.css);
+
 .download {
     max-width: 1440px;
     min-height: 1218.7px;
@@ -13,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: 580px;
+    top: 560px;
     color: #fff;
 }
 
@@ -29,6 +30,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .download {
+    margin-top: -580px;
+    }
     .download::before {
         display: none;
     }

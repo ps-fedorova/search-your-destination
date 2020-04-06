@@ -1,4 +1,4 @@
-.content-title {
+.content__title {
   display: flex;
   flex-direction: column;
   max-width: 37%;
@@ -13,14 +13,14 @@
 
 
 @media screen and (max-width: 1024px) {
-  .content-title {
+  .content__title {
       font-size: 30px;
       line-height: 38px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .content-title {
+  .content__title {
       font-size: 20px;
       line-height: 26px;
   }
