@@ -1,6 +1,6 @@
 .footer__grid {
     display: grid;
-    grid-template-columns: minmax(min-content, max-content) repeat(2, max-content);
+    grid-template-columns: minmax(min-content, max-content) repeat(2, fit-content(90px));
     justify-content: space-between;
 }
 
@@ -8,6 +8,8 @@
     .footer__grid {
         display: flex;
         flex-direction: column;
+        max-width: 405px;
         padding: 0 20px;
+        margin: 0 auto;
     }
 }

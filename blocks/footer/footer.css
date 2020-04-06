@@ -1,7 +1,7 @@
 @import url(./__position/footer__position.css);
 @import url(./__social-icons/footer__social-icons.css);
 @import url(./__social-icon/footer__social-icon.css);
-@import url(./__date/footer__date.css);
+@import url(./__copyright/footer__copyright.css);
 @import url(./__author/footer__author.css);
 @import url(./__list-icon/footer__list-icon.css);
 @import url(./__link/footer__link.css);
@@ -10,11 +10,11 @@
 @import url(./__heading/footer__heading.css);
 @import url(./__links-social-icon/footer__links-social-icon.css);
 @import url(./__grid/footer__grid.css);
+@import url(./__nav/footer__nav.css);
 @import url(./__info/footer__info.css);
 @import url(./__list-item/footer__list-item.css);
 @import url(./__column-links/footer__column-links.css);
 @import url(./__column-links/_position/footer__column-links_position.css);
-
 .footer {
     max-width: 1440px;
     min-height: 733px;
