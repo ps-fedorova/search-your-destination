@@ -1,5 +1,7 @@
 # Search Your Destination
 
+## https://ps-fedorova.github.io/search-your-destination/
+
 
 ## Description of the project and its functionality
 The project is a single-page site. The site is adapted to the most popular resolutions of computer screens, tablets and smartphones.
